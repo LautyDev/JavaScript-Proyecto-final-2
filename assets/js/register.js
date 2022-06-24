@@ -13,6 +13,6 @@ buttonRegister.addEventListener('click', () => {
     localStorage.setItem('datesUser', datesJson)
 
     setTimeout(() => {
-        location.replace('https://finalprojectonejs.lauty.dev/login.html')
+        location.replace('./login.html')
     }, 1000)
 })
