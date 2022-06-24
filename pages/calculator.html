@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora 🧮</title>
+
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <script defer src="../assets/js/extensions/calculator.js"></script>
+    <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1><a href="../index.html">Calculadora</a></h1>
+    </header>
+    <main>
+        <div class="calculator">
+            <form>
+                <section id="inputs">
+                    <input type="number" id="firstNumber" placeholder="Escriba un número." required>
+                    <input type="number" id="secondNumber" placeholder="Escriba un número." required>
+                </section>
+                <section id="buttons">
+                    <button type="button" id="addition">Sumar</button>
+                    <button type="button" id="subtraction">Restar</button>
+                    <button type="button" id="multiplication">Multiplicar</button>
+                    <button type="button" id="division">Dividir</button>
+                </section>
+            </form>
+        </div>
+        <div class="result">
+            <h2 id="result">Resultado: 0</h2>
+        </div>
+    </main>
+</body>
+</html>
