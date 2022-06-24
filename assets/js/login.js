@@ -9,7 +9,7 @@ buttonLogin.addEventListener('click', () => {
 
         if (dates.mail === inputMail.value && dates.password === inputPassword.value) {
             setTimeout(() => {
-                location.replace('./calculator.html')
+                location.replace('https://finalprojectonejs.lauty.dev/calculator.html')
             }, 500)
         }
 
